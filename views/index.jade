@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+    h1 Back to School: Software security
+    p Welcome to #{title}
+
+    div.topbar
+        div.fill
+            div.container
+                a.brand(href='#') #{title}
+                ul.nav
+                    li.active
+                        a(href='#') Home
+                    li
+                        a(href='#about') About
+                    li
+                        a(href='#contact') Contact
